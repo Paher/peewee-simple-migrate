@@ -10,7 +10,7 @@ from glob import glob
 
 from peewee import *
 
-logger = logging.getLogger("peewee-simple-migrate")
+logger = logging.getLogger(__name__)
 
 INIT_VERSION = 0
 
